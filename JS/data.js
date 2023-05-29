@@ -1,3 +1,11 @@
+const help = `<pre>cat            Displays content of my files.
+clear/cls      clear the screen
+github         Goto my github account.
+ifconfig       Display my address and contact detail.
+ls             Display structure of my modal.
+resume         Open my resume in new tab
+</pre>`
+
 const welcome = `
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/3f2db6afb6.js" crossorigin="anonymous"></script>
@@ -47,13 +55,7 @@ const ifconfig = `<pre>eth0: dob=08 &lt; SEPTEMBER &gt; 1989
       tel (vietnam) 098 210 2015 (8hx7d)
       device interrupt 20  memory 0xf7c00000-f7c20000 </pre>`
 
-const help = `<pre>cat            Displays content of my files.
-clear/cls      clear the screen
-github         Goto my github account.
-ifconfig       Display my address and contact detail.
-ls             Display structure of my modal.
-projects       Display all of my project as developer till now
-</pre>`
+
 const readme = `<pre>PLEASE DON'T THINK SERIOUS ABOUT THIS
 This project give you a small portion about what i'm working on. 
 Terminal is essential tool for an IT engineer.

@@ -59,25 +59,6 @@ const execute = function executeCommand(input) {
       terminalOutput.innerHTML = `${terminalOutput.innerHTML}<div class="terminal-line">${output}</div>`;
       terminalOutput.scrollTop = terminalOutput.scrollHeight;
   }
-  // if (input == "projects") {
-  //   open("pages/projects.html");
-  // } else if (input === "clear" || input === "cls") {
-  //   clearScreen();
-  // } else if (input === "history") {
-  //   showHist();
-  // } else if (input === "github") {
-  //   open("https://github.com/phuopham?tab=repositories");
-  // } else {
-  //   output = `<div class="terminal-line"><span class="directory">~</span> ${input}</div>`;
-  //   if (!COMMANDS.hasOwnProperty(input)) {
-  //     output += `<div class="terminal-line">command not found: ${input}</div>`;
-  //   } else {
-  //     output += COMMANDS[input];
-  //   }
-
-  //   terminalOutput.innerHTML = `${terminalOutput.innerHTML}<div class="terminal-line">${output}</div>`;
-  //   terminalOutput.scrollTop = terminalOutput.scrollHeight;
-  // }
 };
 
 const key = (e) => {
